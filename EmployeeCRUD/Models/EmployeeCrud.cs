@@ -1,7 +1,7 @@
-﻿using EmployeeCRUD.Models;
+﻿using EmployeeCRUDapp.Models;
 using Microsoft.Extensions.Configuration;
 using System.Data.SqlClient;
-namespace EmployeeCRUD.Models
+namespace EmployeeCRUDapp.Models
 {
 
     public class EmployeeCrud

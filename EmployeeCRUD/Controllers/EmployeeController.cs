@@ -1,8 +1,8 @@
-﻿using EmployeeCRUD.Models;
+﻿using EmployeeCRUDapp.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmployeeCRUD.Controllers
+namespace EmployeeCRUDapp.Controllers
 {
     public class EmployeeController : Controller
     {
