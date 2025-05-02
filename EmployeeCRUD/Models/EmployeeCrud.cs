@@ -21,8 +21,8 @@ namespace EmployeeCRUDapp.Models
 
         public List<Employee> GetAllEmployess()
         {
-            List<Employee> emplist = new List<Employee>();
-            string qry = "select * from Employee";
+            //List<Employee> emplist = new List<Employee>();
+            //string qry = "select * from Employee";
             cmd = new SqlCommand(qry,con);
             con.Open();
             dr = cmd.ExecuteReader();
