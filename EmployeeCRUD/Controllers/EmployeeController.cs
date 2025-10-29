@@ -8,7 +8,7 @@ namespace EmployeeCRUDapp.Controllers
     {
         EmployeeCrud crud;
        
-        private readonly IConfiguration configuration;
+       // private readonly IConfiguration configuration;
         public EmployeeController( IConfiguration configuration)
         {
             this.configuration = configuration;
